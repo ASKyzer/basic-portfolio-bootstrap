@@ -1,0 +1,93 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bg-light {
+    /* The image used */
+    background-image: url("../images/greycircles.png");
+    background-repeat: repeat;
+}
+
+.site {
+  display: flex;
+  /* allows the main content to stretch the viewport height */
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.site-content {
+  color: #777777;
+  flex: 1;
+}
+
+.navigation-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #777777;
+  padding: 0;
+}
+
+/* gets rid of preset padding of 15px */
+.navbar {
+  padding: 0;
+}
+
+/* styles Adrian Kyzer on top */
+.navbar-light .navbar-brand {
+  color: white;
+  font-family: Georgia, Times New Roman, Times, Serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+  .navbar-light .navbar-brand:hover {
+    color: #F6DB5F;
+  }
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  padding: 10px 25px;
+}
+
+.nav-item a {
+  font-size: 20px;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.card-title {
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+.floating-img {
+  border: 1px solid #ccc;
+  /* allows the text to wrap around the image */
+  float: left;
+}
+
+footer {
+  background-color: #666666;
+  color: #ccc;
+  height: 100px;
+  /* centers the text vertically */
+  line-height: 100px;
+  text-align: center;
+  border-top: 3px solid #4aaaa5;
+}
+
+
+@media only screen and (max-width: 575px) {
+
+    /* custom margin top for xs screens */
+    .content-row {
+      margin-top: 20px;
+    }
+    /* makes the logo or nav-brand a bit smaller */
+    .navbar-light .navbar-brand {
+      font-size: 24px;
+    }
+
+}

@@ -18,8 +18,9 @@
   </head>
 
   <body class="site bg-light">
-<!-- navigation bar -->
-    <div class="site-content">
+<!-- div for site content sans footer -->
+  <div class="site-content">
+    <!-- navigation bar -->
     <div class="container-fluid navigation-container">
       <div class="container">
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
@@ -39,62 +40,64 @@
               <li class="nav-item">
                 <a class="nav-link pl-4" href="portfolio.html">Portfolio</a>
               </li>
-            </ul>
-          </div>
-        </nav>
+              </ul>
+            </div>
+          </nav>
+      </div>
     </div>
-  </div>
-<!-- Collapse end for navigation bar -->
+  <!-- Collapse end for navigation bar -->
 
-<!-- main content with content col and contact col -->
-    <div class="container main-content-container">
-      <div class="row mt-lg-5 mt-md-4 mt-sm-3 mt-xs-3 content-row">
-        <div class="col-md-8 col-xl-9">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h3 class="card-title">About Me</h3>
-              <hr>
-              <img class="floating-img mr-4" src="assets/images/adrian-fur.jpg" alt="Picture of Adrian" height="150" width="150">
-              <p class="card-text">
-                Hello.  My name is Adrian Kyzer and thank you for visiting my site.
-                I am a hairstylist who is currently working to become a full stack web developer at the George Washington University School for Professional Studies.  After nearly twenty years in the creative field of cosmetology, I am excited to expand that creativity into to world of technology.  As someone who has always been interested in design and esthetics, and have always excelled in math and science, I looking forward to the marriage of the two hemispheres of my brain.
-                <br/><br/>
-                As a hair designer, I had always incorporated various technology and social media to help expand my business.  Some examples are learning HTML (in the early years) to create a static website of information about my background, work hours, and a few pictures of my work.  I also learned to use Microsoft Publisher, Adobe InDesign, and Adobe Photoshop to create and online presence as well as print and digital advertising, marketing and promotional materials.
-                <br/><br/>
-                As a web developer, I come into the field with a magnitude of skill acquired from my previous professions, such as, a keen eye for esthetics and details, and ability to perform individually and as a team.  Having multiple clients per day, allows me to really be able to connect and communicate with people.  The beauty professions is constantly evolving.  Fads come and go, so I have always had to be able to learn new styles and techniques.  It’s that desire to constantly learn new things and improve on my craft is, I think,  sets me apart.
-              </p>
+  <!-- main content with content col and contact col -->
+      <div class="container main-content-container">
+        <!-- row with 2 col for all of the site's information -->
+        <div class="row mt-lg-5 mt-md-4 mt-sm-3 mt-xs-3 content-row">
+          <!-- main column for bio, contact form and portfolio scsreenshos -->
+          <div class="col-md-8 col-xl-9">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h3 class="card-title">About Me</h3>
+                <hr>
+                <img class="floating-img mr-4" src="assets/images/adrian-fur.jpg" alt="Picture of Adrian" height="150" width="150">
+                <p class="card-text">
+                  Hello.  My name is Adrian Kyzer and thank you for visiting my site.
+                  I am a hairstylist who is currently working to become a full stack web developer at the George Washington University School for Professional Studies.  After nearly twenty years in the creative field of cosmetology, I am excited to expand that creativity into to world of technology.  As someone who has always been interested in design and esthetics, and have always excelled in math and science, I looking forward to the marriage of the two hemispheres of my brain.
+                  <br/><br/>
+                  As a hair designer, I had always incorporated various technology and social media to help expand my business.  Some examples are learning HTML (in the early years) to create a static website of information about my background, work hours, and a few pictures of my work.  I also learned to use Microsoft Publisher, Adobe InDesign, and Adobe Photoshop to create and online presence as well as print and digital advertising, marketing and promotional materials.
+                  <br/><br/>
+                  As a web developer, I come into the field with a magnitude of skill acquired from my previous professions, such as, a keen eye for esthetics and details, and ability to perform individually and as a team.  Having multiple clients per day, allows me to really be able to connect and communicate with people.  The beauty professions is constantly evolving.  Fads come and go, so I have always had to be able to learn new styles and techniques.  It’s that desire to constantly learn new things and improve on my craft is, I think,  sets me apart.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 col-xl-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Connect with me</h5>
-              <hr>
-              <div class="row">
-                <div class="col media-icons-col d-flex justify-content-around">
-                  <a href="https://www.github.com/askyzer"> <img src="assets/images/github.png" class="img-fluid img-responsive p-1" alt="Github Icon"></a>
-                  <a href="https://www.linkedin.com/in/adrian-kyzer-a19211139/"> <img src="assets/images/linkedin.png" class="img-fluid img-responsive p-1" alt="LinkedIn Icon"></a>
-                  <a href="https://stackoverflow.com/users/9186276/askyzer?tab=profile"> <img src="assets/images/stack-overflow.png" class="img-fluid img-responsive p-1" alt="Stack Overflow Icon"></a>
+          <!-- collapse for main content column for bio, contact form and portfolio screenshots -->
+          <!-- social media column using .card bs4 -->
+          <div class="col-md-4 col-xl-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Connect with me</h5>
+                <hr>
+                <div class="row">
+                  <div class="col media-icons-col d-flex justify-content-around">
+                    <a href="https://www.github.com/askyzer"> <img src="assets/images/github.png" class="img-fluid img-responsive p-1" alt="Github Icon"></a>
+                    <a href="https://www.linkedin.com/in/adrian-kyzer-a19211139/"> <img src="assets/images/linkedin.png" class="img-fluid img-responsive p-1" alt="LinkedIn Icon"></a>
+                    <a href="https://stackoverflow.com/users/9186276/askyzer?tab=profile"> <img src="assets/images/stack-overflow.png" class="img-fluid img-responsive p-1" alt="Stack Overflow Icon"></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- collapse for social media column -->
         </div>
+        <!-- collapse for row with 2 col for all of the site's information -->
       </div>
-    </div>
+<!-- Collapse for main content -->
+
   </div>
 <!-- collapse for main content -->
 
     <footer class="mt-5 mb-0 site-footer">
       <p class="mb-0">&copy; Copyright Adrian Kyzer 2018</p>
     </footer>
-
-
-
-
-
-
 
 
     <!-- Optional JavaScript -->
