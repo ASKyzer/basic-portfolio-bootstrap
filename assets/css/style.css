@@ -131,6 +131,31 @@ footer {
         to {background-color: #F6DB5F;}
     }
 
+/* styling for portfolio page  ***********************************************************/
+
+.portfolio-overlay {
+  background-color: #4aaaa5;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+  .card-img-overlay:hover {
+    background-color: rgba(246, 218, 96, 0.7);
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0 15px;
+    .portfolio-overlay {background-color: white;}
+  }
+
+.card-img-overlay {
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+  padding: 15px;
+}
 
 @media only screen and (max-width: 575px) {
 
@@ -142,5 +167,9 @@ footer {
     .navbar-light .navbar-brand {
       font-size: 24px;
     }
+
+     .portfolio-col {
+       margin-bottom: 15px;
+     }
 
 }
