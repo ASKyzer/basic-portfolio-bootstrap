@@ -99,6 +99,7 @@ footer {
 
 .form-group input,
 .form-group textarea {
+  /* gets rid of rounded preset */
   border-radius: 0;
 }
 
@@ -109,6 +110,7 @@ footer {
 .btn-primary {
   background-color: #4aaaa5;
   border: none;
+  /* gets rid of rounded preset */
   border-radius: 0;
 }
   .btn-primary:hover {
@@ -146,7 +148,6 @@ footer {
     padding: 0;
     padding-bottom: 15px;
     margin: 0 15px;
-    .portfolio-overlay {background-color: white;}
   }
 
 .card-img-overlay {
